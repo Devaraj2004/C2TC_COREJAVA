@@ -1,5 +1,5 @@
-package day3inherit.multi;
-import java.util.Date; 
+package day3multiple;
+import java.util.Date;
 public class Person {
 	private String name; 
 	private long conatctNo; 
@@ -33,5 +33,6 @@ public class Person {
 	@Override 
 	public String toString() { 
 	return "Person [name=" + name + ", conatctNo=" + conatctNo + ", dateOfBirth=" + dateOfBirth + "]"; 
-	} 
+	}
+
 }
